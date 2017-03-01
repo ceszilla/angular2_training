@@ -1,0 +1,5 @@
+<section>
+    <button (click)="sendMessage()">send to child</button>
+    <h1>Message from Child: {{messageFromChild}}</h1>
+</section>
+<child-app [message]='message' (childClicked)='onChildClicked($event)'></child-app>

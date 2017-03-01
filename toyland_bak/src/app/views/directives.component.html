@@ -1,0 +1,10 @@
+<div *ngIf='showMe'>
+    I AM SHOWN
+</div>
+<table>
+        <tr *ngFor='let toy of toys | myFilter:searchString'>
+            <td>{{toy.name | lowercase}}</td>
+            <td>{{toy.code}}</td>
+            <td>{{toy.price}}</td>
+        </tr>
+</table>

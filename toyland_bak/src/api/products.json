@@ -1,0 +1,34 @@
+[
+        {
+            "name": "Lala Loopsy",
+            "code": "10001",
+            "available": "March 2017",
+            "price": "$25",
+            "imgUrl": "http://3.bp.blogspot.com/-0Xcq2u6H24g/TxmFFsj7XrI/AAAAAAAABhs/sBHLTIp3BVA/s1600/13401635.jpg",
+            "shown": "false"
+        },
+        {
+            "name": "Pokemon",
+            "code": "10002",
+            "available": "March 2017",
+            "price": "$50",
+            "imgUrl": "http://static.tumblr.com/7f29ffaf86b50f900abb60ef7021edfe/izmj1iu/Q5Inz03u3/tumblr_static_70kt88zhd0so4g84koowgwow.png",
+            "shown": "false"
+        },
+        {
+            "name": "GI Joe",
+            "code": "10003",
+            "available": "April 2017",
+            "price": "$35",
+            "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.wV-M8AH3pWbxdOkg3uWpxwC9Es&pid=15.1&P=0&w=300&h=300",
+            "shown": "false"
+        },
+        {
+            "name": "Basketball",
+            "code": "10004",
+            "available": "January 2017",
+            "price": "$15",
+            "imgUrl": "https://tse1.mm.bing.net/th?id=OIP._oOuLNOqkpPpUlE_QsysBAEsEs&pid=15.1&P=0&w=300&h=300",
+            "shown": "false"
+        }
+    ]

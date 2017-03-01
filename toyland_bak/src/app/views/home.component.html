@@ -1,0 +1,5 @@
+<h1>HOME</h1>
+<img [src]='toys[0].imgUrl' [width]='toys[0].imgW' [height]='toys[0].imgH'/>
+<img [src]='toys[1].imgUrl' [width]='toys[1].imgW' [height]='toys[1].imgH'/>
+<button (click)='toggleImage()'>surprise</button>
+<input [(ngModel)]="searchString" placeholder="filter"/>

@@ -1,0 +1,30 @@
+<h1 align=center>Welcome to Toyland</h1>
+<h4 align=center><my-quote></my-quote></h4>
+<p>Filter by:<br>
+<input [(ngModel)]="searchString"/></p>
+<h2>Filtred by: {{searchString}}</h2>
+<div *ngIf='selectedName'>
+    <details-app [name]='selectedName' [code]='selectedCode' [price]='selectedPrice'></details-app>
+</div>
+<br>
+<table border=1>
+    <tr>
+        <th width=400></th>
+        <th width=160>Product</th>
+        <th width=120>Code</th>
+        <th width=150>Available</th>
+        <th width=120>Price</th>
+    </tr>
+    <tr *ngFor='let toy of toys | myFilter:searchString'>
+        <td width=400>
+            <button (click)='clickButton(toy)'>{{toy.shown=="true"?"hide":"show"}}</button>
+            <div *ngIf='toy.shown=="true"'>
+                <img [src]='toy.imgUrl' (click)='clickImg(toy)' width=150 height=150 />
+            </div>
+        </td>
+        <td width=160>{{toy.name}}</td>
+        <td width=120>{{toy.code}}</td>
+        <td width=150>{{toy.available}}</td>
+        <td width=120>{{toy.price}}</td>
+    </tr>
+</table>
